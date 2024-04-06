@@ -56,6 +56,11 @@ p {
     font-size: 16px;
 }
 
+p.width-60 {
+    width: 60%;
+    margin: 0 auto;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -64,6 +69,35 @@ img {
 img.bg {
     border-radius: var(--borderRadius);
     box-shadow: 3px 3px 0px 2px var(--primary);
+}
+
+.legal-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.legal-item .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    background-color: var(--primary);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.legal-item a, 
+.legal-item p {
+    color: var(--black);
+    font-size: 16px;
+    transition: var(--transition);
+}
+
+.legal-item a:hover {
+    color: var(--primary);
+    transition: var(--transition);
 }
 
 .hidden {
@@ -83,6 +117,10 @@ img.bg {
 
 .section.grey {
     background-color: var(--light-grey);
+}
+
+.section.green {
+    background-color: var(--primary);
 }
 
 .section .row {
