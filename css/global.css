@@ -123,6 +123,10 @@ img.bg {
     background-color: var(--primary);
 }
 
+.section.green h2 {
+    color: var(--white);
+}
+
 .section .row {
     width: 100%;
     max-width: 1600px;

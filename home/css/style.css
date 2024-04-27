@@ -1,7 +1,7 @@
 .banner {
     justify-content: center;
     height: 90vh;
-    background-image: url('https://placehold.co/1200x800/EEE/31343C');
+    background-image: url('/home/img/banner.jpg');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -206,6 +206,16 @@
     transition: var(--transition);
 }
 
+.reviews.section .row .review-wrapper {
+    flex-direction: column;
+    color: var(--black);
+}
+
+.reviews.section .row .review-wrapper .review-author {
+    color: var(--primary);
+    font-weight: 700;
+}
+
 .review .review-wrapper {
     width: 100%;
     align-items: center;
@@ -254,6 +264,32 @@
     font-size: 16px;
 }
 
+.wrapper .item {
+    align-items: center;
+}
+
+.wrapper .item .icon-holder {
+    display: flex;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: var(--white);
+}
+
+.wrapper .item i {
+    color: var(--primary);
+}
+
+.usp-wrapper {
+    width: 80%;
+}
+
+.usp-wrapper .item {
+    gap: 20px;
+}
+
+.usp-wrapper .item p {
+    color: var(--white);
+}
 
 @media (max-width: 560px) {
     .banner.section,
