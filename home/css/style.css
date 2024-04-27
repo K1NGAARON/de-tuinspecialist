@@ -158,14 +158,14 @@
 }
 
 .projects-wrapper .item .content h3 {
-    color: var(--white);
+    color: var(--primary);
     text-align: center;
     font-size: 24px;
 }
 
 .projects-wrapper .item .overlay {
     opacity: 0;
-    background-color: var(--primary);
+    background-color: var(--white);
     transition: var(--transition);
 }
 
@@ -176,10 +176,6 @@
 
 .projects-wrapper .item:hover .content {
     display: flex;
-}
-
-.projects-wrapper .item {
-    border: 2px solid var(--white);
 }
 
 .dots {
