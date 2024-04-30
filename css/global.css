@@ -180,6 +180,12 @@ img.bg {
     border-color: var(--white);
 }
 
+.btn.ghost-green {
+    background-color: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
 .btn:hover {
     cursor: pointer;
     transform: scale(1.05);
