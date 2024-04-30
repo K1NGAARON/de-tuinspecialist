@@ -1,0 +1,63 @@
+
+.diensten-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+.diensten-wrapper .item {
+    flex: 1 0 40%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.diensten-wrapper .item .content {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.diensten-wrapper .item .content h3 {
+    color: var(--white);
+    font-size: 24px;
+    text-align: center;
+}
+
+.diensten-wrapper .item .content a {
+    color: var(--white);
+    text-align: center;
+}
+
+.diensten-wrapper .item .overlay {
+    opacity: 0;
+    background-color: var(--primary);
+    transition: var(--transition);
+}
+
+.diensten-wrapper .item:hover .overlay {
+    opacity: 1;
+    transition: var(--transition);
+}
+
+.diensten-wrapper .item:hover .content {
+    display: flex;
+}
+
+.realisaties-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+.realisaties-wrapper .item {
+    flex: 1 0 30%;
+}
