@@ -1,16 +1,16 @@
 function changeReviews() {
     const reviews = [
         {
-            name: "Klant x",
-            review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur rerum quae aut quo deleniti repellendus tempore voluptatem, tenetur id omnis.",
+            name: "Karel D.",
+            review: "Ik heb De Tuinspecialist ingeschakeld voor het onderhoud van mijn tuin, en ik ben meer dan tevreden. Paul en zijn team zijn zeer betrouwbaar en hebben mijn tuin altijd in perfecte staat gehouden. Ze werken efficiënt en hebben een scherp oog voor detail. Het is een geruststelling om te weten dat mijn tuin in goede handen is.",
         },
         {
-            name: "Klant x",
-            review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur rerum quae aut quo deleniti repellendus tempore voluptatem, tenetur id omnis.",
+            name: "Monique J.",
+            review: "De Tuinspecialist heeft mijn tuin volledig getransformeerd. Het ontwerp dat Paul voorstelde, was precies wat ik voor ogen had, en de aanleg werd met uiterste precisie uitgevoerd. Mijn tuin ziet er nu uit als een waar paradijs, en ik krijg constant complimenten van buren en vrienden. Ik ben enorm dankbaar voor hun professionaliteit en creativiteit!",
         },
         {
-            name: "Klant x",
-            review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur rerum quae aut quo deleniti repellendus tempore voluptatem, tenetur id omnis.",
+            name: "Jeroen V.",
+            review: "Na jaren van verwaarlozing had mijn achtertuin dringend een make-over nodig. Paul van De Tuinspecialist heeft een geweldig plan voorgesteld en het resultaat is verbluffend. De nieuwe beplanting en het vernieuwde terras maken mijn tuin tot een heerlijke plek om te ontspannen. De vakkennis en passie van het team zijn duidelijk te zien in het eindresultaat. Ik kan hen van harte aanbevelen!",
         },
     ];
 

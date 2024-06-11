@@ -41,6 +41,11 @@
     text-align: center;
 }
 
+.reviews.section,
+.reviews.section .row {
+    min-height: 50vh;
+}
+
 .values-wrapper {
     width: 100%;
     display: flex;
