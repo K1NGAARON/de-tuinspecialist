@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gardening Project Estimator</title>
+</head>
+<body>
+    <h1>Gardening Project Estimator</h1>
+    <form id="estimate-form">
+        <label for="projectType">Type of Project:</label>
+        <select id="projectType">
+            <option value="design">Garden Design</option>
+            <option value="lawn">Lawn Installation</option>
+            <option value="planting">Planting</option>
+            <option value="maintenance">Garden Maintenance</option>
+            <option value="hardscaping">Hardscaping</option>
+            <option value="irrigation">Irrigation System</option>
+        </select><br>
+
+        <label for="projectSize">Project Size (m²):</label>
+        <input type="number" id="projectSize" min="1"><br>
+
+        <label for="complexity">Complexity of Design:</label>
+        <select id="complexity">
+            <option value="simple">Simple</option>
+            <option value="moderate">Moderate</option>
+            <option value="complex">Complex</option>
+        </select><br>
+
+        <label for="laborIntensity">Labor Intensity:</label>
+        <select id="laborIntensity">
+            <option value="basic">Basic</option>
+            <option value="specialized">Specialized</option>
+            <option value="heavy">Heavy</option>
+        </select><br>
+
+        <label for="maintenanceFrequency">Frequency of Maintenance:</label>
+        <select id="maintenanceFrequency">
+            <option value="one-time">One-time</option>
+            <option value="monthly">Monthly</option>
+            <option value="bi-weekly">Bi-weekly</option>
+            <option value="weekly">Weekly</option>
+        </select><br>
+
+        <label for="location">Location:</label>
+        <select id="location">
+            <option value="urban">Urban</option>
+            <option value="suburban">Suburban</option>
+            <option value="rural">Rural</option>
+        </select><br>
+
+        <button type="button" onclick="calculateEstimate()">Calculate Estimate</button>
+    </form>
+
+    <h2>Estimated Cost: <span id="estimateCost"></span></h2>
+
+    <script src="script.js"></script>
+</body>
+</html>
